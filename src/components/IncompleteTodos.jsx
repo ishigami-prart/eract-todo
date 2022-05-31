@@ -1,6 +1,6 @@
 import React from "react";
 
-export const incompleteTodo = (props) => {
+export const IncompleteTodo = (props) => {
   const { todos, onClickComplete, onClickDelete } = props;
   return (
     <div className="incomplete-area">
